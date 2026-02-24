@@ -12,7 +12,10 @@ config_version=5
 
 config/name="Pordot"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(1, 1, 1, 1)
+boot_splash/stretch_mode=2
+boot_splash/image="uid://5a0d1bs72qg3"
+config/icon="uid://dmsa1ud013fvh"
 
 [dotnet]
 
