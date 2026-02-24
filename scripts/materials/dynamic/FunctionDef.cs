@@ -80,6 +80,9 @@ namespace pordot.scripts.materials.dynamic
                 return Function.Unknown;
             }
         }
-        public static string getShaderCode()
+        public static string getShaderCode(Function function, PdmValue[] parameters)
+        {
+            return "";
+        }
     }
 }
