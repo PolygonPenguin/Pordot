@@ -5,11 +5,11 @@
     set: !indents;
 
     + Texture{
-        noise: 1, 10;
+        noise: 1, 10;`
         *2;
         -1;
     };
-    
+
     * !color;
 };
 
