@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace scripts.materials.dynamic
+namespace pordot.scripts.materials.dynamic
 {
     public class PdmNumber
     {
-        
+        public bool isConstant;
+		public PdmFunction[] instructions;
+		public float constant;
     }
 }

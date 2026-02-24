@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace pordot.scripts.materials.dynamic
 {
-    public class PdmFunction
+    public class PdmColor
     {
-        String name;
-        PdmValue[] args;
+        
     }
 }
