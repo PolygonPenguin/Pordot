@@ -1,0 +1,19 @@
+!indents = Texture;
+!color = Color;
+
+>ALBEDO = Texture{
+    set: !indents;
+
+    + Texture{
+        noise: 1, 10;
+        *2;
+        -1;
+    };
+    
+    * !color;
+};
+
+>NORMAL = Texture{
+    set: !indents;
+    normalize;
+};

@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bms4yb6mou777"
-path="res://.godot/imported/Nunito-MediumItalic.ttf-d69f83dbcd9390732f94339811be8902.fontdata"
+uid="uid://c4iid1jmhnebr"
+path="res://.godot/imported/Nunito-Black.ttf-b17df74b8c8b486b5e8ba96c3e7e2e01.fontdata"
 
 [deps]
 
-source_file="res://fonts/Nunito/static/Nunito-MediumItalic.ttf"
-dest_files=["res://.godot/imported/Nunito-MediumItalic.ttf-d69f83dbcd9390732f94339811be8902.fontdata"]
+source_file="res://assets/fonts/Nunito/static/Nunito-Black.ttf"
+dest_files=["res://.godot/imported/Nunito-Black.ttf-b17df74b8c8b486b5e8ba96c3e7e2e01.fontdata"]
 
 [params]
 

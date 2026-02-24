@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cq0b0ha0hhuds"
-path="res://.godot/imported/Nunito-SemiBoldItalic.ttf-8a1eb435aee41f846c86cf2e0a131ddc.fontdata"
+path="res://.godot/imported/Nunito-SemiBoldItalic.ttf-ff67cf77d6c9725ccb8492fa260b2c20.fontdata"
 
 [deps]
 
-source_file="res://fonts/Nunito/static/Nunito-SemiBoldItalic.ttf"
-dest_files=["res://.godot/imported/Nunito-SemiBoldItalic.ttf-8a1eb435aee41f846c86cf2e0a131ddc.fontdata"]
+source_file="res://assets/fonts/Nunito/static/Nunito-SemiBoldItalic.ttf"
+dest_files=["res://.godot/imported/Nunito-SemiBoldItalic.ttf-ff67cf77d6c9725ccb8492fa260b2c20.fontdata"]
 
 [params]
 

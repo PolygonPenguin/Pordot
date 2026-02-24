@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bwa2anny38irx"
-path="res://.godot/imported/Nunito-Italic.ttf-b2acdbe1563bbe7773eecd0506d8da05.fontdata"
+uid="uid://ddtepos3daexj"
+path="res://.godot/imported/Nunito-SemiBold.ttf-cb5c21fefff7bbea7d315e85edd3ce8e.fontdata"
 
 [deps]
 
-source_file="res://fonts/Nunito/static/Nunito-Italic.ttf"
-dest_files=["res://.godot/imported/Nunito-Italic.ttf-b2acdbe1563bbe7773eecd0506d8da05.fontdata"]
+source_file="res://assets/fonts/Nunito/static/Nunito-SemiBold.ttf"
+dest_files=["res://.godot/imported/Nunito-SemiBold.ttf-cb5c21fefff7bbea7d315e85edd3ce8e.fontdata"]
 
 [params]
 
