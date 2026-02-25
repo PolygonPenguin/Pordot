@@ -11,5 +11,16 @@ namespace pordot.scripts.materials.dynamic
         public bool isConstant;
 		public PdmFunction[] instructions;
 		public float constant;
+
+        public PdmNumber(PdmFunction[] instructions)
+        {
+            this.instructions = instructions;
+            isConstant=false;
+        }
+        public PdmNumber(float constant)
+        {
+            this.constant = constant;
+            isConstant=true;
+        }
     }
 }

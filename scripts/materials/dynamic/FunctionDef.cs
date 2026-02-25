@@ -30,6 +30,11 @@ namespace pordot.scripts.materials.dynamic
             SetAlpha,
             Round,
             Invert,
+            And,
+            Or,
+            Not,
+            Xor,
+            IfElse,
             Unknown
         }
         public static Function getFunction(string name)
@@ -76,13 +81,31 @@ namespace pordot.scripts.materials.dynamic
                 return Function.Round;
                 case "invert":
                 return Function.Invert;
+                case "and":
+                return Function.And;
+                case "or":
+                return Function.Or;
+                case "not":
+                return Function.Not;
+                case "xor":
+                return Function.Xor;
+                case "ifElse":
+                return Function.IfElse;
                 default:
                 return Function.Unknown;
             }
         }
         public static string getShaderCode(Function function, PdmValue[] parameters)
         {
-            return "";
+            switch (function)
+            {
+                case (Function.Add):
+                    if (parameters.Length == 1 && parameters[0].type == PdmValue.DataType.Number)
+                    {
+                        return outp
+                    }
+                    break;
+            }
         }
     }
 }

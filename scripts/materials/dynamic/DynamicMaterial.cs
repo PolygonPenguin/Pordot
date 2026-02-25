@@ -8,11 +8,19 @@ namespace pordot.scripts.materials.dynamic
 {
     public class DynamicMaterial
     {
-        public PdmTexture[] textures;
+        public PdmValue[] nonConstants;
 
         static DynamicMaterial parsePdm(String pdmCode) {
             // TODO: Implement
             return new DynamicMaterial();
+        }
+
+        public string toShaderCode()
+        {
+            return """
+                #[compute]
+                #version 450
+            """;
         }
     }
 }

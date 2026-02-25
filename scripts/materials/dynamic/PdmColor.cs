@@ -8,6 +8,19 @@ namespace pordot.scripts.materials.dynamic
 {
     public class PdmColor
     {
-        
+        public bool isConstant;
+		public PdmFunction[] instructions;
+		public Color constant;
+
+        public PdmColor(PdmFunction[] instructions)
+        {
+            this.instructions = instructions;
+            isConstant=false;
+        }
+        public PdmColor(Color constant)
+        {
+            this.constant = constant;
+            isConstant=true;
+        }
     }
 }
