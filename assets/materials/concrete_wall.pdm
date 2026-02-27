@@ -1,19 +1,33 @@
-!indents = Texture;
-!color = Color;
+>indents: Texture;
+>color: Color;
 
->ALBEDO = Texture{
-    set: !indents;
+!ALBEDO : Texture{
+    set: indents;
 
-    + Texture{
-        noise: 1, 10;`
+    + ColorSampler{
+        noise: 1, 10;
         *2;
         -1;
     };
 
     * !color;
-};
+}
 
->NORMAL = Texture{
-    set: !indents;
+!NORMAL : Texture{
+    set: indents;
+    transform: Vector2{x: 0; y: 0;};
     normalize;
-};
+}
+
+something : ColorSampler{
+    (0, 0.5)
+    set: indents;
+    scale: 2;
+    (0, 1)
+    invert;
+    transform: 0.1, 0.2
+    (0.1, 1.2)
+    scale 0.75
+    (0.075, 0.9)
+    (0.075, 0.9)
+}
