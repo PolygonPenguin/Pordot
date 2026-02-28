@@ -27,9 +27,8 @@ namespace pordot.scripts.materials.dynamic
 		public List<string> lines;
 		public static DynamicMaterial parse(string code)
 		{
-			DynamicMaterial output = new DynamicMaterial();
 			code = code.Replace(" ", "").Replace("\t", "").Replace("\n", "").Replace("+", "add: ").Replace("-", "subtract: ").Replace("*", "multiply: ").Replace("/", "divide: ");
-			return output;
+			return Parser.parse(code);
 		}
 	}
 }

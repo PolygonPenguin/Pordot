@@ -332,6 +332,10 @@ namespace pordot.scripts.materials.dynamic
             }
             return -1;
         }
+        public string toShaderFunction()
+        {
+            return"";
+        }
         public string toShaderCode()
         {
             if (dataType==DataType.Unknown)
